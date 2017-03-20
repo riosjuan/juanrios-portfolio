@@ -18,7 +18,7 @@ layout: main
         {% assign project_weight = site.projects | sort: 'weight' %}
         {% for project in project_weight %}
         <div class="w-100 w-50-m w-third-l pa3">
-            <a class="link dark-gray" href="{{ project.url | site.baseurl }}">
+            <a class="link dark-gray" href="{{ project.url | prepend: site.baseurl }}">
                 <div class="br2 drop-shadow-1 bg-white">
                     <img class="br2 br--top" src="{{ project.thumbnail }}" alt="Llorona Records">
                     <div class="pa3">
