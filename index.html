@@ -3,12 +3,18 @@ layout: main
 ---
 
 <div class="w-100 pv5-l pv3 ph3 flex flex-row-ns flex-column flex-wrap">
-    <div class="w-100 w-25-l pa3 bt-l b--black-05">
-        <p class="mt0 mb1 f4 Malva-Bold">Juan Rios</p>
-        <p class="mt0 mb1 lh-copy">Product designer</p>
-        <a class="link dark-pink hover-pink" href="mailto:juanesteban.rios@gmail.com">Say hi</a>
+    <div class="w-100 w-25-l pa3">
+        <div class="w-100 w-50-m pr3-m">
+            <p class="mt0 mb1 f3-ns f4 Malva-Bold">Juan Rios</p>
+            <p class="mt0 mb3 f5 lh-copy">Product designer</p>
+        </div>
+        <div class="w-100 w-50-m pr3-m ">
+            <p class="mt0 mb3 f5 lh-copy">I'm passionate about visual design, meaningful interactions and engaging user experiences.</p>
+            <a class="link dark-pink hover-pink" href="mailto:juanesteban.rios@gmail.com">Say hi &#9786;</a>
+        </div>
+        <div class="db dn-l pt3 bb b--black-05"></div>
     </div>
-    <div class="w-100 w-75-l flex flex-wrap bt b--black-05">
+    <div class="w-100 w-75-l flex flex-wrap">
         {% assign project_weight = site.projects | sort: 'weight' %}
         {% for project in project_weight %}
         <div class="w-100 w-50-m w-third-l pa3">
