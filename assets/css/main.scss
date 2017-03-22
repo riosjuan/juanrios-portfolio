@@ -103,3 +103,37 @@ body {
 .drop-shadow-1:hover::after {
   opacity: 1;
 }
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.project-card#llorona-records {
+  animation: fadein 1.5s cubic-bezier(0, 1, 0.5, 1) 0s 1 ;
+}
+
+.project-card#swisscom-io {
+  animation: fadein 2s cubic-bezier(0, 1, 0.5, 1) 0s 1 ;
+}
+
+.project-card#simple-rain {
+  animation: fadein 2.5s cubic-bezier(0, 1, 0.5, 1) 0s 1 ;
+}

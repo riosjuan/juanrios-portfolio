@@ -17,10 +17,10 @@ layout: main
     <div class="w-100 w-75-l flex flex-wrap">
         {% assign project_weight = site.projects | sort: 'weight' %}
         {% for project in project_weight %}
-        <div class="w-100 w-50-m w-third-l pa3">
+        <div id="{{ project.short }}" class="project-card w-100 w-50-m w-third-l pa3" >
             <a class="link dark-gray" href="{{ project.url | prepend: site.baseurl }}">
                 <div class="br2 drop-shadow-1 bg-white">
-                    <img class="br2 br--top" src="{{ project.thumbnail }}" alt="Llorona Records">
+                    <img class="br2 br--top" src="{{ project.thumbnail }}" alt="{{ project.title }}">
                     <div class="pa3">
                         <p class="f4 Malva-Bold">{{ project.title }}</p>
                         <p class="lh-copy black-60">{{ project.description }}</p>
@@ -31,3 +31,4 @@ layout: main
         {% endfor %}
     </div>
 </div>
+
