@@ -26,8 +26,14 @@ dribbble_username:  juanrios
 
 # Build settings
 markdown: kramdown
+
+# Sass output styles
+# styles: nested, expanded, compact and compressed
+sass:
+  style: compressed
 gems:
   - jekyll-feed
+  - octopress-autoprefixer
 exclude:
   - Gemfile
   - Gemfile.lock
