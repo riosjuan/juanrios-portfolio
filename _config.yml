@@ -34,6 +34,7 @@ sass:
 gems:
   - jekyll-feed
   - octopress-autoprefixer
+  - jekyll-sitemap
 exclude:
   - Gemfile
   - Gemfile.lock
