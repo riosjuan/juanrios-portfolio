@@ -135,3 +135,12 @@ body {
 .project-card#simple-rain {
   animation: fadein .7s cubic-bezier(.17,.67,.47,.93) 0s 1 ;
 }
+
+.button-back {
+  transform: translateX(0);
+  transition: all 0.25s ease-in-out;
+
+  &:hover {
+    transform: translateX(-2px);
+  }
+}

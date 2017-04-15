@@ -38,6 +38,7 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+  - CNAME
 
 permalink: pretty
 
