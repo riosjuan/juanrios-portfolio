@@ -60,5 +60,8 @@ DEPENDENCIES
   octopress-autoprefixer
   tzinfo-data
 
+RUBY VERSION
+   ruby 2.4.1p111
+
 BUNDLED WITH
-   1.11.2
+   1.14.6
