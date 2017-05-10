@@ -25,7 +25,7 @@ title:  Juan Rios - Product Designer
         <div id="{{ project.short }}" class="project-card w-100 w-50-m w-third-l pa3" >
             <a class="link dark-gray" href="{{ project.url | prepend: site.baseurl }}">
                 <div class="br2 drop-shadow-1 bg-white">
-                    <img class="br2 br--top" src="{{ project.thumbnail }}" alt="{{ project.title }}">
+                    <img class="br2 br--top" src="{{ project.thumbnail }}" alt="{{ project.title }}" srcset="{{ project.thumbnail }} 1x, {{ project.thumbnail2x }} 2x">
                     <div class="pa3">
                         <p class="f4-ns f3 mb2 Malva-Bold">{{ project.title }}</p>
                         <p class="f5-ns f4 mt0 lh-copy black-60">{{ project.description }}</p>
