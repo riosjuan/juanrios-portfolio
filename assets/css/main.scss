@@ -11,12 +11,22 @@ body {
 }
 
 .charcoal {
-  color: #344460;
+  color: #484466;
 }
 
-.dark-charcoal {
-  color: #162236;
+.bunting {
+  color: #19144C;
 }
+
+.blue-bay {
+  color: #1800FF;
+}
+
+.bg-blu-bay {
+  background: #1800FF;
+}
+
+.hover-blue-bay:hover, .hover-blue-bay:focus{color:#1800FF}
 
 .site {
   display: flex;
@@ -52,7 +62,7 @@ body {
 }
 
 .drop-shadow-1:hover {
-  color: #0E3D8D;
+  color: #1800FF;
   transform: translate(0, -2px);
 }
 
