@@ -3,3 +3,4 @@ _site
 .jekyll-metadata
 /design/
 /.idea
+/node_modules
