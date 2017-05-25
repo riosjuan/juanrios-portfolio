@@ -96,7 +96,7 @@ body { -webkit-font-smoothing: antialiased;}
   }
 }
 
-@-webkit-keyframes fadein {
+@-webkit-keyframes slide-in {
   0% {
     opacity: 0;
     transform: translateY(50%);
@@ -108,15 +108,15 @@ body { -webkit-font-smoothing: antialiased;}
 }
 
 .project-card#llorona-records {
-  animation: fadein .5s cubic-bezier(.17,.67,.47,.93) 0s 1 ;
+  animation: slide-in .425s cubic-bezier(0.0, 0.0, 0.2, 1) 0s 1 ;
 }
 
 .project-card#swisscom-io {
-  animation: fadein .6s cubic-bezier(.17,.67,.47,.93) 0s 1 ;
+  animation: slide-in .525s cubic-bezier(0.0, 0.0, 0.2, 1) 0s 1 ;
 }
 
 .project-card#simple-rain {
-  animation: fadein .7s cubic-bezier(.17,.67,.47,.93) 0s 1 ;
+  animation: slide-in .625s cubic-bezier(0.0, 0.0, 0.2, 1) 0s 1 ;
 }
 
 .button-back {
