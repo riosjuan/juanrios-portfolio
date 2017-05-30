@@ -17,6 +17,7 @@ $bright-purple:   #9900FF;
 ////////////////////////////
 
 body { -webkit-font-smoothing: antialiased;}
+a {outline:none !important;}
 
 // Colors
 .dark-gray-p { color: $dark-gray; }
