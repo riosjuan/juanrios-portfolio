@@ -20,8 +20,8 @@ title:  Juan Rios - Product Designer
     <div class="w-100 w-75-l flex flex-wrap">
         {% assign project_weight = site.projects | sort: 'weight' %}
         {% for project in project_weight %}
-        <div id="{{ project.short }}" class="project-card w-100 w-50-m w-third-l pa3" >
-            <a class="link dark-gray-p" href="{{ project.url | prepend: site.baseurl }}">
+        <div id="{{ project.short }}" class="flex project-card w-100 w-50-m w-third-l pa3" >
+            <a class="flex link dark-gray-p" href="{{ project.url | prepend: site.baseurl }}">
                 <div class="br2 drop-shadow-1 bg-white">
                     <img class="w-100 br2 br--top" src="{{ project.thumbnail }}" alt="{{ project.title }}" srcset="{{ project.thumbnail }} 1x, {{ project.thumbnail2x }} 2x">
                     <div class="pa3">
