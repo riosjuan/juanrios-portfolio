@@ -7,7 +7,7 @@
         <div>
             <ul class="pl0 list">
                 {% for network in site.data.networks %}
-                <li class="dib mr3 network-link"><a a class="dib light-gray-p hover-accent-blue link" href="{{ network.link }}" target="_blank" title="{{ network.network }}" style="height: 16px; width: 16px;">{{ network.icon }}</a></li>
+                <li class="dib mr3 network-link"><a a class="dib light-gray-p hover-accent-blue link" href="{{ network.link }}" target="_blank" rel="nofollow noopener noreferrer" title="{{ network.network }}" style="height: 16px; width: 16px;">{{ network.icon }}</a></li>
                 {% endfor %}
             </ul>
         </div>
